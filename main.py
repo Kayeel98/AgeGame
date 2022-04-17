@@ -20,7 +20,7 @@ def age_game():
 	if age > randomnumber:
 		print("Looks like you're older than me !")
 	elif randomnumber > age:
-		print("Youngling seems like you have more ways to go...")
+		print("Hello young one, do what you love while you're still young!")
 	else:
 		print("We are the samge age, bet we have similar 				hobbies!")
 	print()
@@ -28,10 +28,10 @@ def age_game():
 		print("Hello, Mr {0}!".format(age))
 		print("How is it like being old? HAHA")
 	elif randomnumber-age >= 10:
-		print("Hello, Zoomer")
+		print("Hello, Zoomer,")
 		print("I am older than you by {0}!".format(randomnumber - age))	
 	else:
-		print("We are about the same age, similar interest perhaps?")
+		print("{0} is not very far from my age which is {1}, So we are about the same age, similar interest perhaps?".format(age,randomnumber))
 
 age_game()
 print()
