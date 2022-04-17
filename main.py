@@ -7,9 +7,10 @@ def age_game():
 		age = input("Your age please: ")
 		age = int(age)
 	except ValueError:
-		print ("Please input a interger!")
-		print()
-		age_game()
+		print ("Please input a interger next time!")
+		print ("The following message is brought to you by")
+		print ("PRESS RUN TO TRY AGAIN.")
+		quit()
 		
 	randomnumber = random.randint(1,100)
 	randomnumber = int(randomnumber)
