@@ -20,7 +20,7 @@ def age_game():
 	if age > randomnumber:
 		print("Looks like you're older than me !")
 	elif randomnumber > age:
-		print("Hello young one, do what you love while you're still young!")
+		print("Young one, do what you love while you're still young!")
 	else:
 		print("We are the same age, bet we have similar hobbies")				
 	print()
