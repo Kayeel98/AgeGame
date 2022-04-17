@@ -3,9 +3,14 @@ print("Hello World")
 print()
 
 def age_game():
-	age = input("Your age please: ")
-	age = int(age)
-
+	try:
+		age = input("Your age please: ")
+		age = int(age)
+	except ValueError:
+		print ("Please input a interger!")
+		print()
+		age_game()
+		
 	randomnumber = random.randint(1,100)
 	randomnumber = int(randomnumber)
 	print()
