@@ -26,6 +26,7 @@ def age_game():
 	print()
 	if age-randomnumber >=10 :
 		print("Hello, Mr {0}!".format(age))
+		print("Bommer...")
 		print("How is it like being old? HAHA")
 	elif randomnumber-age >= 10:
 		print("Hello, Zoomer,")
