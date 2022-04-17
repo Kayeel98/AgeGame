@@ -24,11 +24,11 @@ def age_game():
 	else:
 		print("We are the samge age, bet we have similar 				hobbies!")
 	print()
-	if age-randomnumber >=10 :
+	if age-randomnumber >=12 :
 		print("Hello, Mr {0}!".format(age))
 		print("Bommer...")
 		print("How is it like being old? HAHA")
-	elif randomnumber-age >= 10:
+	elif randomnumber-age >= 12:
 		print("Hello, Zoomer,")
 		print("I am older than you by {0}!".format(randomnumber - age))	
 	else:
